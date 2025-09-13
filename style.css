@@ -1,0 +1,123 @@
+/* Add you CSS here */
+
+/* Basic page styles */
+body {
+  /* Use a modern and playful font for the whole page */
+  font-family: 'Poppins', 'Comic Sans MS', Arial, sans-serif;
+  /* Vertical gradient: top (#04948d), middle (#5ee6e6), bottom (#b3e0ff) */
+  background: linear-gradient(to bottom, #04948d, #5ee6e6, #b3e0ff); /* Teal to lighter teal to light blue gradient */
+  color: #333;                    /* Dark text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar styles */
+#navbar {
+  background-color: #04948d; /* Teal background */
+  padding: 12px 0;           /* Space above and below links */
+  text-align: center;        /* Center the links */
+}
+
+/* Style the links in the navbar */
+#navbar a {
+  color: #fff;               /* White text */
+  text-decoration: none;     /* No underline */
+  margin: 0 18px;            /* Space between links */
+  font-size: 1.1em;          /* Slightly larger font */
+  font-weight: bold;         /* Make text bold */
+  transition: color 0.2s;    /* Smooth color change on hover */
+}
+
+/* Change link color on hover for better feedback */
+#navbar a:hover {
+  color: #5ee6e6;            /* Lighter teal on hover */
+}
+
+/* Section styles */
+section {
+  max-width: 600px;   /* Limit width for readability */
+  margin: 18px auto;  /* Slightly less space between sections */
+  padding: 20px;
+  /* Remove background, rounded corners, and shadow for natural flow */
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Hero section styles */
+#hero {
+  text-align: center; /* Center text and image */
+  background: none;   /* Remove background so it flows naturally */
+}
+
+/* Profile picture styles */
+#profile-pic {
+  width: 180px;         /* Make image slightly larger */
+  height: 180px;        /* Make image slightly larger */
+  border-radius: 50%;   /* Make image round (circle) */
+  object-fit: cover;    /* Crop image to fill the box */
+  margin-bottom: 5px;
+  border: 2px solid #ddd; /* Add a border */
+  /* The image is now a larger circle and fills the box */
+}
+
+/* Headings styles */
+h1 {
+  color: #2c3e50;      /* Dark blue for headings */
+  font-size: 2.5em;    /* Larger font size for main header */
+}
+
+h2 {
+  color: #2c3e50;      /* Dark blue for headings */
+  font-size: 2em;      /* Larger font size for section headers */
+}
+
+/* Center headings in About Me, Songs, and Websites sections */
+#bio h2,
+#songs h2,
+#websites h2 {
+  text-align: center; /* Center the section headings */
+}
+
+/* List styles */
+ul {
+  padding-left: 20px; /* Indent lists */
+}
+
+/* Link styles */
+a {
+  color: #3498db;         /* Blue links */
+  text-decoration: none;  /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Make paragraph text larger for easier reading */
+p {
+  font-size: 1.1em;      /* Increase font size of paragraphs */
+  margin-bottom: 15px;   /* Add more space below paragraphs */
+}
+
+/* Song section: show songs side-by-side */
+.song-row {
+  display: flex;              /* Place items in a row */
+  justify-content: center;    /* Center the row */
+  gap: 24px;                  /* Space between songs */
+  margin-top: 10px;
+}
+
+.song-item {
+  text-align: center;         /* Center image and text */
+  width: 120px;               /* Set a fixed width for each song */
+}
+
+.song-img {
+  width: 100px;               /* Set image width */
+  height: 100px;              /* Set image height */
+  object-fit: cover;          /* Crop image to fit */
+  border-radius: 12px;        /* Slightly rounded corners */
+  margin-bottom: 8px;
+  border: 1px solid #ccc;     /* Light border around image */
+}

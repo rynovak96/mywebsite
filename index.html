@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar: Links to each section -->
+  <nav id="navbar">
+    <!-- The href values match the section IDs below -->
+    <a href="#hero">Home</a>
+    <a href="#bio">About Me</a>
+    <a href="#songs">Songs</a>
+    <a href="#websites">Websites</a>
+  </nav>
+
+  <!-- Hero Section: Your name and profile picture -->
+  <section id="hero">
+    <!-- Profile picture for the site owner.
+         The image file should be in the "img" folder and named "wolffehelmet.jpg". -->
+    <img id="profile-pic" src="img/wolffehelmet.jpg" alt="Profile picture of Ryan">
+    <h1>Ryan Novak</h1>
+    <p>Scroll down to learn more about me!</p>
+  </section>
+
+  <!-- Bio Section: A short introduction about yourself -->
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>
+      <!-- Write a short bio here -->
+      I am a student at ASU studying business and learning web design. In my spare time, I enjoy writing, reading and watching Star Wars with my family. My profile image is my favorite Star Wars character, Commander Wolffe!
+    </p>
+  </section>
+
+  <!-- Songs Section: Show songs side-by-side with images above titles -->
+  <section id="songs">
+    <h2>Favorite Songs</h2>
+    <div class="song-row">
+      <!-- Song 1 -->
+      <div class="song-item">
+        <!-- Replace with your own image if you want -->
+        <img src="img/barbaraod.jpeg" alt="One of Us album cover" class="song-img">
+        <a href="https://www.youtube.com/watch?v=WVkHMmgms-k&list=RDWVkHMmgms-k&start_radio=1" target="_blank">One of Us</a>
+      </div>
+      <!-- Song 2 -->
+      <div class="song-item">
+        <img src="img/cominghomeod.jpg" alt="Coming Home album cover" class="song-img">
+        <a href="https://www.youtube.com/watch?v=vUDT-JMuxyI&list=RDvUDT-JMuxyI&start_radio=1" target="_blank">Coming Home</a>
+      </div>
+      <!-- Song 3 -->
+      <div class="song-item">
+        <img src="img/ttpd.webp" alt="Song 3 album cover" class="song-img">
+        <a href="https://www.youtube.com/watch?v=EVbtjaWXQVg" target="_blank">Down Bad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Websites Section: List websites with links -->
+  <section id="websites">
+    <h2>Websites I Like</h2>
+    <ul>
+      <li>
+        <a href="https://discord.com/" target="_blank">Discord</a>
+      </li>
+      <li>
+        <a href="https://www.amazon.com/" target="_blank">Amazon</a>
+      </li>
+      <!-- Add more websites and links -->
+    </ul>
+  </section>
+</body>
+</html>
